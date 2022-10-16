@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Fraunces');
+
+body{
+  background-color: hsl(0, 0%, 100%);
+  margin: 0px;
+}
+.conteiner{
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box{
+  width: 528px;
+  height: 390px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  border-radius: 10px;
+}
+img{
+  border-radius: 10px 0px 0px 10px;
+}
+.image{
+  background: url(images/image-product-desktop.jpg);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px 0px 0px 10px;
+  background-size: cover;
+  }
+
+.texto{
+  width: 50%;
+  height: 100%;
+  margin: -390px 262px;
+  border-radius: 0px 10px 10px 0px;
+}
+.h4{
+  text-align: left;
+  padding: 1px 36px 0px 30px;
+}
+
+.titulo{
+  font-size: 14px;
+  padding: 1px 36px 3px 30px;
+  margin-top: -20px;
+}
+
+.desc{
+  padding: 0px 30px;
+  font-family: Montserrat;
+  font-size: 13px;
+}
+
+.precoG{
+  color: hsl(158, 36%, 37%);
+  padding: 0px 36px 0px 30px;
+}
+
+.precoP{
+  color: hsl(158, 36%, 37%);
+  margin: -46px 140px;
+}
+
+.botao{
+  background-color: hsl(158, 36%, 37%);
+  color: #ffffff;
+  width: 206px;
+  margin: 67px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  padding: 14px;
+}
+#car{
+  padding: 0px 8px 0px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 0px;
+  }
+  
+  .conteiner{
+    background-color: unset;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .box{
+    width: 452px;
+    height: 372px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .texto{
+    width: 50%;
+    height: 100%;
+    margin: -372px 226px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .h4{
+    text-align: left;
+    padding: 1px 33px 0px 30px;
+  }
+  
+  .titulo{
+    font-size: 14px;
+    padding: 1px 33px 0px 30px;
+    margin-top: -20px;
+  }
+  
+  .desc{
+    padding: 0px 29px;
+    font-family: Montserrat;
+    font-size: 13px;
+  }
+  
+  .precoG{
+    color: hsl(158, 36%, 37%);
+    margin: 0px 0px 21px 0px;
+    padding: 0px 36px 0px 30px;
+  }
+  
+  .precoP{
+    color: hsl(158, 36%, 37%);
+    margin: -46px 140px;
+  }
+  
+  .botao{
+    background-color: hsl(158, 36%, 37%);
+    color: #ffffff;
+    width: 206px;
+    margin: 60px 11px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+  }
+  #car{
+    padding: 0px 8px 0px 0px;
+  }
+}
